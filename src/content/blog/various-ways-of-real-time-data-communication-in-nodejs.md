@@ -47,19 +47,10 @@ npm init -y
 ```
 
 3) Create *app.js* file & write some code in it.
-```astro
----
-// dont-do-this.astro
-function handleClick() {
-	console.log('button clicked!')
-}
----
 
-<!-- ❌ This doesn't work! ❌ -->
-<button onClick={handleClick}>Nothing will happen when you click me!</button>
-```
 
-```
+```javascript
+
 const express = require('express')
 const app = express()
 const port = 80
@@ -104,7 +95,7 @@ mkdir html && cd html
 ```
 
 7) Create *index.html* file inside the public folder & write some code in it.
-```
+```html
 <html>
     <head>
         <title>Polling</title>
@@ -177,7 +168,7 @@ npm init -y
 ```
 
 3) Create *app.js* file & write some code in it.
-```
+```javascript
 const express = require('express')
 const app = express()
 const port = 80
@@ -234,7 +225,7 @@ mkdir html && cd html
 ```
 
 7) Create *index.html* file inside the public folder & write some code in it.
-```
+```html
 <html>
     <head>
         <title>Server Sent Events</title>
@@ -293,7 +284,7 @@ npm init -y
 ```
 
 3) Create *app.js* file & write some code in it.
-```
+```javascript
 const http = require('http')
 const express = require('express')
 const WebSocket = require('ws')
@@ -352,7 +343,7 @@ mkdir html && cd html
 ```
 
 7) Create *index.html* file inside the public folder & write some code in it.
-```
+```html
 <html>
     <head>
         <title>Server Sent Events</title>

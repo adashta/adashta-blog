@@ -22,7 +22,10 @@ const SOCIALNETWORKS = [
 ---
 
 <header class='flex justify-between items-center h-12 font-semibold'>
-	<a class='text-lg' href='/'>Home</a>
+	<div class='flex justify-start items-center gap-2 title'>
+		<img src='/favicon.png' width='50px' />
+		<h1 class='text-2xl font-semibold tracking-wide'>Adashta</h1>
+	</div>
 	<nav class='nav-menu flex justify-center items-center md:flex gap-4'>
 		{
 			SOCIALNETWORKS.map((network) => (
