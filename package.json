@@ -12,9 +12,6 @@
 		"astro-blog",
 		"astro-b"
 	],
-	"bugs": {
-		"url": "https://github.com/danielcgilibert/blog-template/issues"
-	},
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
