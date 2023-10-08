@@ -23,55 +23,55 @@ devDependencies:
     specifier: 4.0.0
     version: 4.0.0(astro@2.10.12)(tailwindcss@3.3.3)
   '@pagefind/default-ui':
-    specifier: ^0.12.0
+    specifier: 0.12.0
     version: 0.12.0
   '@tailwindcss/typography':
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
   '@typescript-eslint/parser':
-    specifier: ^6.4.1
+    specifier: 6.4.1
     version: 6.4.1(eslint@8.46.0)(typescript@5.1.6)
   clsx:
     specifier: 2.0.0
     version: 2.0.0
   eslint:
-    specifier: ^8.46.0
+    specifier: 8.46.0
     version: 8.46.0
   eslint-plugin-astro:
-    specifier: ^0.28.0
+    specifier: 0.28.0
     version: 0.28.0(eslint@8.46.0)
   eslint-plugin-jsx-a11y:
-    specifier: ^6.7.1
+    specifier: 6.7.1
     version: 6.7.1(eslint@8.46.0)
   husky:
-    specifier: ^8.0.0
-    version: 8.0.3
+    specifier: 8.0.0
+    version: 8.0.0
   lint-staged:
-    specifier: ^13.2.3
+    specifier: 13.2.3
     version: 13.2.3
   mdast-util-to-string:
-    specifier: ^4.0.0
+    specifier: 4.0.0
     version: 4.0.0
   motion:
-    specifier: ^10.16.2
+    specifier: 10.16.2
     version: 10.16.2
   pagefind:
-    specifier: ^0.12.0
+    specifier: 0.12.0
     version: 0.12.0
   prettier:
-    specifier: ^3.0.2
-    version: 3.0.2
+    specifier: 3.0.3
+    version: 3.0.3
   prettier-config-standard:
-    specifier: ^5.0.0
-    version: 5.0.0(prettier@3.0.2)
+    specifier: 7.0.0
+    version: 7.0.0(prettier@3.0.3)
   prettier-plugin-astro:
-    specifier: ^0.11.1
-    version: 0.11.1
+    specifier: 0.12.0
+    version: 0.12.0
   reading-time:
-    specifier: ^1.5.0
+    specifier: 1.5.0
     version: 1.5.0
   slugify:
-    specifier: ^1.6.6
+    specifier: 1.6.6
     version: 1.6.6
   tailwind-merge:
     specifier: 1.14.0
@@ -80,7 +80,7 @@ devDependencies:
     specifier: 3.3.3
     version: 3.3.3
   typescript:
-    specifier: ^5.1.6
+    specifier: 5.1.6
     version: 5.1.6
 
 packages:
@@ -2713,8 +2713,8 @@ packages:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
     engines: {node: '>=14.18.0'}
 
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+  /husky@8.0.0:
+    resolution: {integrity: sha512-4qbE/5dzNDNxFEkX9MNRPKl5+omTXQzdILCUWiqG/lWIAioiM5vln265/l6I2Zx8gpW8l1ukZwGQeCFbBZ6+6w==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -4151,20 +4151,20 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-config-standard@5.0.0(prettier@3.0.2):
-    resolution: {integrity: sha512-QK252QwCxlsak8Zx+rPKZU31UdbRcu9iUk9X1ONYtLSO221OgvV9TlKoTf6iPDZtvF3vE2mkgzFIEgSUcGELSQ==}
+  /prettier-config-standard@7.0.0(prettier@3.0.3):
+    resolution: {integrity: sha512-NgZy4TYupJR6aMMuV/Aqs0ONnVhlFT8PXVkYRskxREq8EUhJHOddVfBxPV6fWpgcASpJSgvvhVLk0CBO5M3Hvw==}
     peerDependencies:
-      prettier: ^2.4.0
+      prettier: ^2.6.0 || ^3.0.0
     dependencies:
-      prettier: 3.0.2
+      prettier: 3.0.3
     dev: true
 
-  /prettier-plugin-astro@0.11.1:
-    resolution: {integrity: sha512-28sf624jQz9uP4hkQiRPRVuG1/4XJpnS6DfoXPgeDAeQ+eQ1o21bpioUbxze57y2EN+BCHeEw6x3a1MhM08Liw==}
+  /prettier-plugin-astro@0.12.0:
+    resolution: {integrity: sha512-8E+9YQR6/5CPZJs8XsfBw579zrwZkc0Wb7x0fRVm/51JC8Iys4lBw4ecV8fHwpbQnzve86TUa4fJ08BJzqfWnA==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.0
-      prettier: 3.0.2
+      prettier: 3.0.3
       sass-formatter: 0.7.7
     dev: true
 
@@ -4182,8 +4182,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
