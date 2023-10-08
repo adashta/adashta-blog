@@ -5,7 +5,6 @@
 @layer base {
 	body {
 		transition: background-color 0.5s ease;
-		background: #E3F2FD !important;
 	}
 
 	@font-face {

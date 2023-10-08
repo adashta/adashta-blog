@@ -6,7 +6,7 @@ import { remarkReadingTime } from './src/utils/readTime.ts'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://blog-template-gray.vercel.app/', // Write here your website url
+	site: 'https://adashta.io',
 	experimental: {
 		assets: true
 	},
@@ -14,7 +14,7 @@ export default defineConfig({
 		remarkPlugins: [remarkReadingTime],
 		drafts: true,
 		shikiConfig: {
-			theme: 'material-theme-darker',
+			theme: 'material-theme',
 			wrap: true
 		}
 	},
@@ -22,7 +22,7 @@ export default defineConfig({
 		mdx({
 			syntaxHighlight: 'shiki',
 			shikiConfig: {
-				theme: 'material-theme-darker',
+				theme: 'material-theme',
 				wrap: true
 			},
 			drafts: true

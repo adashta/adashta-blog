@@ -10,22 +10,24 @@ import PageFindSearch from '@/components/Search'
 const SOCIALNETWORKS = [
 	{
 		name: 'Github',
-		url: 'https://github.com/danielcgilibert/blog-template',
+		url: 'https://github.com/adashta',
 		icon: GithubIcon
 	},
 	{
 		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
+		url: 'https://twitter.com/adashtaio',
 		icon: TwitterIcon
 	}
 ]
 ---
 
 <header class='flex justify-between items-center h-12 font-semibold'>
-	<div class='flex justify-start items-center gap-2 title'>
-		<img src='/favicon.png' width='50px' />
-		<h1 class='text-2xl font-semibold tracking-wide'>Adashta</h1>
-	</div>
+	<a href='/'>
+		<div class='flex justify-start items-center gap-2 title'>
+			<img src='/favicon.png' width='50px' />
+			<h1 class='text-2xl font-semibold tracking-wide'>Adashta</h1>
+		</div>
+	</a>
 	<nav class='nav-menu flex justify-center items-center md:flex gap-4'>
 		{
 			SOCIALNETWORKS.map((network) => (
@@ -35,6 +37,7 @@ const SOCIALNETWORKS = [
 			))
 		}
 		<PageFindSearch />
+		<!---
 		<div class='md:ml-3 pl-2.5 border-l-2 flex justify-center items-center gap-2'>
 			<span class='theme relative'>
 				<span class='sun-logo w-fit h-fit opacity-0 transition-transform duration-500'>
@@ -46,5 +49,6 @@ const SOCIALNETWORKS = [
 				</span>
 			</span>
 		</div>
+		-->
 	</nav>
 </header>

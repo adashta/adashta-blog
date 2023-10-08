@@ -13,7 +13,7 @@ import CheckIcon from '../icons/CheckIcon.astro'
 		const button = code.querySelector('.copy-button')
 		const check = code.querySelector('.check-span')
 
-		button!.addEventListener('click', () => {
+		/*button!.addEventListener('click', () => {
 			navigator.clipboard.writeText(code.textContent?.trim() || '')
 			check?.classList.remove('opacity-0')
 			button?.classList.add('opacity-0')
@@ -21,6 +21,6 @@ import CheckIcon from '../icons/CheckIcon.astro'
 				check?.classList.add('opacity-0')
 				button?.classList.remove('opacity-0')
 			}, 2000)
-		})
+		})*/
 	})
 </script>
